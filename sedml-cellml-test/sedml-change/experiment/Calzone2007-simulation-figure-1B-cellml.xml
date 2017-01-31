@@ -8,7 +8,8 @@
   <listOfModels>
     <model id="model1" language="urn:sedml:language:cellml" source="../model/calzone_thieffry_tyson_novak_2007.cellml">
         <listOfChanges>
-            <changeAttribute target="/cellml:model/cellml:component[@name='StgP_c']/cellml:variable[@name='StgP_c']/@initial_value" newValue="1.0" />
+					<changeAttribute target="/cellml:model/cellml:component[@name='StgP_c']/cellml:variable[@name='StgP_c']/@initial_value" newValue="1.0" />
+					<changeAttribute target="/cellml:model/cellml:component[@name='MPF_c']/cellml:variable[@name='MPF_c']/@initial_value" newValue="0.0" />
         </listOfChanges>
     </model>
   </listOfModels>
